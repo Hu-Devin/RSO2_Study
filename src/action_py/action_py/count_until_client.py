@@ -32,6 +32,8 @@ class CountUntilClient(Node):
             self.get_logger().info('Goal accepted by server, waiting for result...')
             self.goal_handle_.get_result_async().\
                 add_done_callback(self.result_callback)
+        else:
+            self.get_logger().error('Goal was rejected by server.')
     
     def result_callback(self, future):
         result = future.result().result 
@@ -40,7 +42,7 @@ class CountUntilClient(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = CountUntilClient()
-    node.send_goal(target_number=5, period=1.0)
+    node.send_goal(target_number=-5, period=1.0)
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:

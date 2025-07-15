@@ -2,7 +2,7 @@
 import rclpy
 import time
 from rclpy.node import Node
-from rclpy.action import ActionServer
+from rclpy.action import ActionServer, GoalResponse
 from rclpy.action.server import ServerGoalHandle
 from my_robot_interface.action import CountUntil
 
@@ -14,8 +14,19 @@ class CountUntilServiceNode(Node):
             self, 
             CountUntil, 
             'count_until',
+            goal_callback=self.goal_callback,
             execute_callback=self.execute_callback
             )
+    
+    def goal_callback(self, goal_request: CountUntil.Goal):
+        self.get_logger().info(f'Received goal request: target_number={goal_request.target_number}, period={goal_request.period}')
+        # Validate the goal request
+        if goal_request.target_number <= 0:
+            self.get_logger().error('Rejecting the goal: target_number must be greater than 0.')
+            return GoalResponse.REJECT
+        self.get_logger().info('Accepting the goal request.')
+        return GoalResponse.ACCEPT
+
     def execute_callback(self, goal_handle:ServerGoalHandle):
         # Get request from goal
         target_number = goal_handle.request.target_number
