@@ -1,0 +1,20 @@
+[0.712s] Invoking command in '/home/devin/ros2_ws/RSO2_Study/build/action_py': PYTHONPATH=/home/devin/ros2_ws/RSO2_Study/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/devin/ros2_ws/RSO2_Study/build/action_py/build --no-deps symlink_data --force
+[0.881s] running develop
+[0.973s] running egg_info
+[0.973s] writing action_py.egg-info/PKG-INFO
+[0.973s] writing dependency_links to action_py.egg-info/dependency_links.txt
+[0.973s] writing entry points to action_py.egg-info/entry_points.txt
+[0.973s] writing requirements to action_py.egg-info/requires.txt
+[0.974s] writing top-level names to action_py.egg-info/top_level.txt
+[0.974s] reading manifest file 'action_py.egg-info/SOURCES.txt'
+[0.976s] writing manifest file 'action_py.egg-info/SOURCES.txt'
+[0.977s] running build_ext
+[0.977s] Creating /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action-py.egg-link (link to .)
+[0.978s] Installing count_until_client script to /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/action_py
+[0.978s] Installing count_until_service script to /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/action_py
+[0.979s] 
+[0.979s] Installed /home/devin/ros2_ws/RSO2_Study/build/action_py
+[0.979s] running symlink_data
+[0.979s] symbolically linking /home/devin/ros2_ws/RSO2_Study/build/action_py/resource/action_py -> /home/devin/ros2_ws/RSO2_Study/install/action_py/share/ament_index/resource_index/packages
+[0.980s] symbolically linking /home/devin/ros2_ws/RSO2_Study/build/action_py/package.xml -> /home/devin/ros2_ws/RSO2_Study/install/action_py/share/action_py
+[1.002s] Invoked command in '/home/devin/ros2_ws/RSO2_Study/build/action_py' returned '0': PYTHONPATH=/home/devin/ros2_ws/RSO2_Study/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/devin/ros2_ws/RSO2_Study/build/action_py/build --no-deps symlink_data --force
