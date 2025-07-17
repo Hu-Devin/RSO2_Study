@@ -1,0 +1,36 @@
+[0.694s] Invoking command in '/home/devin/ros2_ws/RSO2_Study/build/action_py': PYTHONPATH=/home/devin/ros2_ws/RSO2_Study/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/devin/ros2_ws/RSO2_Study/build/action_py/build
+[0.857s] running develop
+[0.952s] Removing /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action-py.egg-link (link to .)
+[0.973s] Invoked command in '/home/devin/ros2_ws/RSO2_Study/build/action_py' returned '0': PYTHONPATH=/home/devin/ros2_ws/RSO2_Study/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/devin/ros2_ws/RSO2_Study/build/action_py/build
+[0.974s] Invoking command in '/home/devin/ros2_ws/RSO2_Study/src/action_py': PYTHONPATH=/home/devin/ros2_ws/RSO2_Study/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_py build --build-base /home/devin/ros2_ws/RSO2_Study/build/action_py/build install --record /home/devin/ros2_ws/RSO2_Study/build/action_py/install.log --single-version-externally-managed install_data --force
+[1.120s] running egg_info
+[1.121s] writing ../../build/action_py/action_py.egg-info/PKG-INFO
+[1.121s] writing dependency_links to ../../build/action_py/action_py.egg-info/dependency_links.txt
+[1.122s] writing entry points to ../../build/action_py/action_py.egg-info/entry_points.txt
+[1.122s] writing requirements to ../../build/action_py/action_py.egg-info/requires.txt
+[1.122s] writing top-level names to ../../build/action_py/action_py.egg-info/top_level.txt
+[1.123s] reading manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[1.123s] writing manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[1.124s] running build
+[1.124s] running build_py
+[1.124s] copying action_py/count_until_client.py -> /home/devin/ros2_ws/RSO2_Study/build/action_py/build/lib/action_py
+[1.124s] copying action_py/count_until_service.py -> /home/devin/ros2_ws/RSO2_Study/build/action_py/build/lib/action_py
+[1.124s] running install
+[1.124s] running install_lib
+[1.125s] creating /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py
+[1.125s] copying /home/devin/ros2_ws/RSO2_Study/build/action_py/build/lib/action_py/count_until_client.py -> /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py
+[1.125s] copying /home/devin/ros2_ws/RSO2_Study/build/action_py/build/lib/action_py/count_until_service.py -> /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py
+[1.126s] copying /home/devin/ros2_ws/RSO2_Study/build/action_py/build/lib/action_py/__init__.py -> /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py
+[1.126s] byte-compiling /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py/count_until_client.py to count_until_client.cpython-310.pyc
+[1.127s] byte-compiling /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py/count_until_service.py to count_until_service.cpython-310.pyc
+[1.128s] byte-compiling /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py/__init__.py to __init__.cpython-310.pyc
+[1.128s] running install_data
+[1.128s] copying resource/action_py -> /home/devin/ros2_ws/RSO2_Study/install/action_py/share/ament_index/resource_index/packages
+[1.129s] copying package.xml -> /home/devin/ros2_ws/RSO2_Study/install/action_py/share/action_py
+[1.129s] running install_egg_info
+[1.131s] Copying ../../build/action_py/action_py.egg-info to /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages/action_py-0.0.0-py3.10.egg-info
+[1.132s] running install_scripts
+[1.148s] Installing count_until_client script to /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/action_py
+[1.148s] Installing count_until_service script to /home/devin/ros2_ws/RSO2_Study/install/action_py/lib/action_py
+[1.148s] writing list of installed files to '/home/devin/ros2_ws/RSO2_Study/build/action_py/install.log'
+[1.166s] Invoked command in '/home/devin/ros2_ws/RSO2_Study/src/action_py' returned '0': PYTHONPATH=/home/devin/ros2_ws/RSO2_Study/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_py build --build-base /home/devin/ros2_ws/RSO2_Study/build/action_py/build install --record /home/devin/ros2_ws/RSO2_Study/build/action_py/install.log --single-version-externally-managed install_data --force

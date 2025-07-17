@@ -1,0 +1,9 @@
+{
+  "package_name": "learning_interface",
+  "non_idl_tuples": [
+    "/home/devin/ros2_ws/RSO2_Study/src/learning_interface:msg/ObjectPosition.msg",
+    "/home/devin/ros2_ws/RSO2_Study/src/learning_interface:srv/AddTwoInts.srv",
+    "/home/devin/ros2_ws/RSO2_Study/src/learning_interface:srv/GetObjectPosition.srv",
+    "/home/devin/ros2_ws/RSO2_Study/src/learning_interface:action/MoveCircle.action"
+  ]
+}
