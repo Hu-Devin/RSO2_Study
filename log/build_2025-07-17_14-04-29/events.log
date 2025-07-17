@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000828] (-) JobUnselected: {'identifier': 'action_py'}
+[0.000877] (-) JobUnselected: {'identifier': 'learning_action'}
+[0.000908] (-) JobUnselected: {'identifier': 'learning_action_cpp'}
+[0.000935] (-) JobUnselected: {'identifier': 'learning_cv'}
+[0.000947] (-) JobUnselected: {'identifier': 'learning_gazebo'}
+[0.000976] (-) JobUnselected: {'identifier': 'learning_interface'}
+[0.001013] (-) JobUnselected: {'identifier': 'learning_interface'}
+[0.001054] (-) JobUnselected: {'identifier': 'learning_launch'}
+[0.001083] (-) JobUnselected: {'identifier': 'learning_node'}
+[0.001112] (-) JobUnselected: {'identifier': 'learning_node_cpp'}
+[0.001123] (-) JobUnselected: {'identifier': 'learning_parameter'}
+[0.001133] (-) JobUnselected: {'identifier': 'learning_parameter_cpp'}
+[0.001144] (-) JobUnselected: {'identifier': 'learning_pkg_c'}
+[0.001154] (-) JobUnselected: {'identifier': 'learning_pkg_python'}
+[0.001165] (-) JobUnselected: {'identifier': 'learning_qos'}
+[0.001176] (-) JobUnselected: {'identifier': 'learning_service'}
+[0.001185] (-) JobUnselected: {'identifier': 'learning_service'}
+[0.001193] (-) JobUnselected: {'identifier': 'learning_service_cpp'}
+[0.001202] (-) JobUnselected: {'identifier': 'learning_tf'}
+[0.001532] (-) JobUnselected: {'identifier': 'learning_topic_cpp'}
+[0.001563] (-) JobUnselected: {'identifier': 'learning_urdf'}
+[0.001593] (-) JobUnselected: {'identifier': 'my_robot_interface'}
+[0.001627] (learning_topic) JobQueued: {'identifier': 'learning_topic', 'dependencies': OrderedDict([('learning_interface', '/home/devin/ros2_ws/RSO2_Study/install/learning_interface')])}
+[0.001712] (learning_topic) JobStarted: {'identifier': 'learning_topic'}
+[0.099952] (-) TimerEvent: {}
+[0.200323] (-) TimerEvent: {}
+[0.300659] (-) TimerEvent: {}
+[0.401096] (-) TimerEvent: {}
+[0.501507] (-) TimerEvent: {}
+[0.602056] (-) TimerEvent: {}
+[0.702591] (-) TimerEvent: {}
+[0.712440] (learning_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/learning_topic', 'build', '--build-base', '/home/devin/ros2_ws/RSO2_Study/build/learning_topic/build', 'install', '--record', '/home/devin/ros2_ws/RSO2_Study/build/learning_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/devin/ros2_ws/RSO2_Study/src/learning_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'devin', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devin/ros2_ws/RSO2_Study/install/learning_interface/lib:/home/devin/ros2_ws/RSO2_Study/install/my_robot_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/devin', 'OLDPWD': '/home/devin/ros2_ws/RSO2_Study/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/devin/ros2_ws/RSO2_Study/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'devin', 'NAME': 'WGC1NJ4SQVJL3', 'WSL_INTEROP': '/run/WSL/4642_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/devin/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/STMicroelectronics/stlink_server:/mnt/c/ST/STM32CubeCLT_1.17.0:/mnt/c/ST/STM32CubeCLT_1.17.0/CMake/bin:/mnt/c/ST/STM32CubeCLT_1.17.0/Ninja/bin:/mnt/c/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin:/mnt/c/ST/STM32CubeCLT_1.17.0/STLink-gdb-server/bin:/mnt/c/ST/STM32CubeCLT_1.17.0/STM32CubeProgrammer/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/Siemens/Teamcenter14.3/Visualization/Products/Mockup/ClearanceDB:/mnt/c/Program Files/Vector SIL Kit 4.0.34/x86/bin:/mnt/c/Program Files/Vector SIL Kit 4.0.34/x86_64/bin:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/hhu37/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hhu37/AppData/Roaming/npm:/mnt/c/Users/hhu37/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin', 'WT_SESSION': 'dad93a51-b393-4713-b0a3-415f3e2ece23', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/devin/ros2_ws/RSO2_Study/install/action_py:/home/devin/ros2_ws/RSO2_Study/install/my_robot_interface:/home/devin/ros2_ws/RSO2_Study/install/learning_service:/home/devin/ros2_ws/RSO2_Study/install/learning_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/devin/ros2_ws/RSO2_Study/build/learning_topic', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/devin/ros2_ws/RSO2_Study/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages:/home/devin/ros2_ws/RSO2_Study/build/action_py:/home/devin/ros2_ws/RSO2_Study/install/action_py/lib/python3.10/site-packages:/home/devin/ros2_ws/RSO2_Study/install/my_robot_interface/local/lib/python3.10/dist-packages:/home/devin/ros2_ws/RSO2_Study/install/learning_service/lib/python3.10/site-packages:/home/devin/ros2_ws/RSO2_Study/install/learning_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/devin/ros2_ws/RSO2_Study/install/learning_interface:/home/devin/ros2_ws/RSO2_Study/install/my_robot_interface', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.802794] (-) TimerEvent: {}
+[0.869080] (learning_topic) StdoutLine: {'line': b'running egg_info\n'}
+[0.869512] (learning_topic) StdoutLine: {'line': b'creating ../../build/learning_topic/learning_topic.egg-info\n'}
+[0.869855] (learning_topic) StdoutLine: {'line': b'writing ../../build/learning_topic/learning_topic.egg-info/PKG-INFO\n'}
+[0.870014] (learning_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/learning_topic/learning_topic.egg-info/dependency_links.txt\n'}
+[0.870347] (learning_topic) StdoutLine: {'line': b'writing entry points to ../../build/learning_topic/learning_topic.egg-info/entry_points.txt\n'}
+[0.870623] (learning_topic) StdoutLine: {'line': b'writing requirements to ../../build/learning_topic/learning_topic.egg-info/requires.txt\n'}
+[0.870666] (learning_topic) StdoutLine: {'line': b'writing top-level names to ../../build/learning_topic/learning_topic.egg-info/top_level.txt\n'}
+[0.870706] (learning_topic) StdoutLine: {'line': b"writing manifest file '../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'\n"}
+[0.871715] (learning_topic) StdoutLine: {'line': b"reading manifest file '../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'\n"}
+[0.872267] (learning_topic) StdoutLine: {'line': b"writing manifest file '../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'\n"}
+[0.872383] (learning_topic) StdoutLine: {'line': b'running build\n'}
+[0.872431] (learning_topic) StdoutLine: {'line': b'running build_py\n'}
+[0.872618] (learning_topic) StdoutLine: {'line': b'creating /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build\n'}
+[0.872833] (learning_topic) StdoutLine: {'line': b'creating /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib\n'}
+[0.873125] (learning_topic) StdoutLine: {'line': b'creating /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.873420] (learning_topic) StdoutLine: {'line': b'copying learning_topic/topic_webcam_pub.py -> /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.873578] (learning_topic) StdoutLine: {'line': b'copying learning_topic/topic_webcam_sub.py -> /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.873692] (learning_topic) StdoutLine: {'line': b'copying learning_topic/interface_object_pub.py -> /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.873808] (learning_topic) StdoutLine: {'line': b'copying learning_topic/topic_helloworld_sub.py -> /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.873926] (learning_topic) StdoutLine: {'line': b'copying learning_topic/interface_object_sub.py -> /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.874173] (learning_topic) StdoutLine: {'line': b'copying learning_topic/__init__.py -> /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.874244] (learning_topic) StdoutLine: {'line': b'copying learning_topic/topic_helloworld_pub.py -> /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic\n'}
+[0.874283] (learning_topic) StdoutLine: {'line': b'running install\n'}
+[0.874318] (learning_topic) StdoutLine: {'line': b'running install_lib\n'}
+[0.874642] (learning_topic) StdoutLine: {'line': b'creating /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.874863] (learning_topic) StdoutLine: {'line': b'copying /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic/topic_webcam_pub.py -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.874979] (learning_topic) StdoutLine: {'line': b'copying /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic/topic_webcam_sub.py -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.875239] (learning_topic) StdoutLine: {'line': b'copying /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic/interface_object_pub.py -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.875311] (learning_topic) StdoutLine: {'line': b'copying /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic/topic_helloworld_sub.py -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.875358] (learning_topic) StdoutLine: {'line': b'copying /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic/interface_object_sub.py -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.875394] (learning_topic) StdoutLine: {'line': b'copying /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic/__init__.py -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.875429] (learning_topic) StdoutLine: {'line': b'copying /home/devin/ros2_ws/RSO2_Study/build/learning_topic/build/lib/learning_topic/topic_helloworld_pub.py -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic\n'}
+[0.875710] (learning_topic) StdoutLine: {'line': b'byte-compiling /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_webcam_pub.py to topic_webcam_pub.cpython-310.pyc\n'}
+[0.876256] (learning_topic) StdoutLine: {'line': b'byte-compiling /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_webcam_sub.py to topic_webcam_sub.cpython-310.pyc\n'}
+[0.876594] (learning_topic) StdoutLine: {'line': b'byte-compiling /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic/interface_object_pub.py to interface_object_pub.cpython-310.pyc\n'}
+[0.877005] (learning_topic) StdoutLine: {'line': b'byte-compiling /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_helloworld_sub.py to topic_helloworld_sub.cpython-310.pyc\n'}
+[0.877186] (learning_topic) StdoutLine: {'line': b'byte-compiling /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic/interface_object_sub.py to interface_object_sub.cpython-310.pyc\n'}
+[0.877424] (learning_topic) StdoutLine: {'line': b'byte-compiling /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic/__init__.py to __init__.cpython-310.pyc\n'}
+[0.877544] (learning_topic) StdoutLine: {'line': b'byte-compiling /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic/topic_helloworld_pub.py to topic_helloworld_pub.cpython-310.pyc\n'}
+[0.877793] (learning_topic) StdoutLine: {'line': b'running install_data\n'}
+[0.877876] (learning_topic) StdoutLine: {'line': b'creating /home/devin/ros2_ws/RSO2_Study/install/learning_topic/share/ament_index\n'}
+[0.878054] (learning_topic) StdoutLine: {'line': b'creating /home/devin/ros2_ws/RSO2_Study/install/learning_topic/share/ament_index/resource_index\n'}
+[0.878180] (learning_topic) StdoutLine: {'line': b'creating /home/devin/ros2_ws/RSO2_Study/install/learning_topic/share/ament_index/resource_index/packages\n'}
+[0.878323] (learning_topic) StdoutLine: {'line': b'copying resource/learning_topic -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/share/ament_index/resource_index/packages\n'}
+[0.878410] (learning_topic) StdoutLine: {'line': b'copying package.xml -> /home/devin/ros2_ws/RSO2_Study/install/learning_topic/share/learning_topic\n'}
+[0.878482] (learning_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.879752] (learning_topic) StdoutLine: {'line': b'Copying ../../build/learning_topic/learning_topic.egg-info to /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info\n'}
+[0.880502] (learning_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[0.895325] (learning_topic) StdoutLine: {'line': b'Installing interface_object_pub script to /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/learning_topic\n'}
+[0.895612] (learning_topic) StdoutLine: {'line': b'Installing interface_object_sub script to /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/learning_topic\n'}
+[0.895797] (learning_topic) StdoutLine: {'line': b'Installing topic_helloworld_pub script to /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/learning_topic\n'}
+[0.895917] (learning_topic) StdoutLine: {'line': b'Installing topic_helloworld_sub script to /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/learning_topic\n'}
+[0.896025] (learning_topic) StdoutLine: {'line': b'Installing topic_webcam_pub script to /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/learning_topic\n'}
+[0.896277] (learning_topic) StdoutLine: {'line': b'Installing topic_webcam_sub script to /home/devin/ros2_ws/RSO2_Study/install/learning_topic/lib/learning_topic\n'}
+[0.896365] (learning_topic) StdoutLine: {'line': b"writing list of installed files to '/home/devin/ros2_ws/RSO2_Study/build/learning_topic/install.log'\n"}
+[0.903069] (-) TimerEvent: {}
+[0.913419] (learning_topic) CommandEnded: {'returncode': 0}
+[0.926348] (learning_topic) JobEnded: {'identifier': 'learning_topic', 'rc': 0}
+[0.926675] (-) EventReactorShutdown: {}
